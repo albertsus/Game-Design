@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B9C9C131F748EE50010F1D0 /* Asteroids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C9C081F748EE50010F1D0 /* Asteroids.cpp */; };
+		4B9C9C141F748EE50010F1D0 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C9C0A1F748EE50010F1D0 /* Game.cpp */; };
+		4B9C9C151F748EE50010F1D0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C9C0C1F748EE50010F1D0 /* main.cpp */; };
+		4B9C9C161F748EE50010F1D0 /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C9C0D1F748EE50010F1D0 /* Ship.cpp */; };
+		4B9C9C171F748EE50010F1D0 /* Weapons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C9C0F1F748EE50010F1D0 /* Weapons.cpp */; };
+		4B9C9C181F748EE50010F1D0 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C9C111F748EE50010F1D0 /* World.cpp */; };
+		4B9EB5F01F70DF5600F4ABA2 /* libsfml-audio.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9EB5EB1F70DF5600F4ABA2 /* libsfml-audio.2.4.2.dylib */; };
+		4B9EB5F11F70DF5600F4ABA2 /* libsfml-graphics.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9EB5EC1F70DF5600F4ABA2 /* libsfml-graphics.2.4.2.dylib */; };
+		4B9EB5F21F70DF5600F4ABA2 /* libsfml-network.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9EB5ED1F70DF5600F4ABA2 /* libsfml-network.2.4.2.dylib */; };
+		4B9EB5F31F70DF5600F4ABA2 /* libsfml-system.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9EB5EE1F70DF5600F4ABA2 /* libsfml-system.2.4.2.dylib */; };
+		4B9EB5F41F70DF5600F4ABA2 /* libsfml-window.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9EB5EF1F70DF5600F4ABA2 /* libsfml-window.2.4.2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B9EB5DE1F70DD7500F4ABA2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B9C9C081F748EE50010F1D0 /* Asteroids.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Asteroids.cpp; sourceTree = "<group>"; };
+		4B9C9C091F748EE50010F1D0 /* Asteroids.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Asteroids.hpp; sourceTree = "<group>"; };
+		4B9C9C0A1F748EE50010F1D0 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		4B9C9C0B1F748EE50010F1D0 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		4B9C9C0C1F748EE50010F1D0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4B9C9C0D1F748EE50010F1D0 /* Ship.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ship.cpp; sourceTree = "<group>"; };
+		4B9C9C0E1F748EE50010F1D0 /* Ship.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ship.hpp; sourceTree = "<group>"; };
+		4B9C9C0F1F748EE50010F1D0 /* Weapons.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Weapons.cpp; sourceTree = "<group>"; };
+		4B9C9C101F748EE50010F1D0 /* Weapons.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Weapons.hpp; sourceTree = "<group>"; };
+		4B9C9C111F748EE50010F1D0 /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
+		4B9C9C121F748EE50010F1D0 /* World.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = World.hpp; sourceTree = "<group>"; };
+		4B9EB5E01F70DD7500F4ABA2 /* asteroids */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = asteroids; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9EB5EB1F70DF5600F4ABA2 /* libsfml-audio.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.4.2.dylib"; path = "../../../../../usr/local/Cellar/sfml/2.4.2_1/lib/libsfml-audio.2.4.2.dylib"; sourceTree = "<group>"; };
+		4B9EB5EC1F70DF5600F4ABA2 /* libsfml-graphics.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.4.2.dylib"; path = "../../../../../usr/local/Cellar/sfml/2.4.2_1/lib/libsfml-graphics.2.4.2.dylib"; sourceTree = "<group>"; };
+		4B9EB5ED1F70DF5600F4ABA2 /* libsfml-network.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.4.2.dylib"; path = "../../../../../usr/local/Cellar/sfml/2.4.2_1/lib/libsfml-network.2.4.2.dylib"; sourceTree = "<group>"; };
+		4B9EB5EE1F70DF5600F4ABA2 /* libsfml-system.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.4.2.dylib"; path = "../../../../../usr/local/Cellar/sfml/2.4.2_1/lib/libsfml-system.2.4.2.dylib"; sourceTree = "<group>"; };
+		4B9EB5EF1F70DF5600F4ABA2 /* libsfml-window.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.4.2.dylib"; path = "../../../../../usr/local/Cellar/sfml/2.4.2_1/lib/libsfml-window.2.4.2.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B9EB5DD1F70DD7500F4ABA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9EB5F01F70DF5600F4ABA2 /* libsfml-audio.2.4.2.dylib in Frameworks */,
+				4B9EB5F11F70DF5600F4ABA2 /* libsfml-graphics.2.4.2.dylib in Frameworks */,
+				4B9EB5F21F70DF5600F4ABA2 /* libsfml-network.2.4.2.dylib in Frameworks */,
+				4B9EB5F31F70DF5600F4ABA2 /* libsfml-system.2.4.2.dylib in Frameworks */,
+				4B9EB5F41F70DF5600F4ABA2 /* libsfml-window.2.4.2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B9EB5D71F70DD7500F4ABA2 = {
+			isa = PBXGroup;
+			children = (
+				4B9EB5E21F70DD7500F4ABA2 /* asteroids */,
+				4B9EB5E11F70DD7500F4ABA2 /* Products */,
+				4B9EB5EA1F70DF5600F4ABA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B9EB5E11F70DD7500F4ABA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B9EB5E01F70DD7500F4ABA2 /* asteroids */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B9EB5E21F70DD7500F4ABA2 /* asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				4B9C9C081F748EE50010F1D0 /* Asteroids.cpp */,
+				4B9C9C091F748EE50010F1D0 /* Asteroids.hpp */,
+				4B9C9C0A1F748EE50010F1D0 /* Game.cpp */,
+				4B9C9C0B1F748EE50010F1D0 /* Game.hpp */,
+				4B9C9C0C1F748EE50010F1D0 /* main.cpp */,
+				4B9C9C0D1F748EE50010F1D0 /* Ship.cpp */,
+				4B9C9C0E1F748EE50010F1D0 /* Ship.hpp */,
+				4B9C9C0F1F748EE50010F1D0 /* Weapons.cpp */,
+				4B9C9C101F748EE50010F1D0 /* Weapons.hpp */,
+				4B9C9C111F748EE50010F1D0 /* World.cpp */,
+				4B9C9C121F748EE50010F1D0 /* World.hpp */,
+			);
+			path = asteroids;
+			sourceTree = "<group>";
+		};
+		4B9EB5EA1F70DF5600F4ABA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B9EB5EB1F70DF5600F4ABA2 /* libsfml-audio.2.4.2.dylib */,
+				4B9EB5EC1F70DF5600F4ABA2 /* libsfml-graphics.2.4.2.dylib */,
+				4B9EB5ED1F70DF5600F4ABA2 /* libsfml-network.2.4.2.dylib */,
+				4B9EB5EE1F70DF5600F4ABA2 /* libsfml-system.2.4.2.dylib */,
+				4B9EB5EF1F70DF5600F4ABA2 /* libsfml-window.2.4.2.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B9EB5DF1F70DD7500F4ABA2 /* asteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9EB5E71F70DD7500F4ABA2 /* Build configuration list for PBXNativeTarget "asteroids" */;
+			buildPhases = (
+				4B9EB5DC1F70DD7500F4ABA2 /* Sources */,
+				4B9EB5DD1F70DD7500F4ABA2 /* Frameworks */,
+				4B9EB5DE1F70DD7500F4ABA2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = asteroids;
+			productName = asteroids;
+			productReference = 4B9EB5E01F70DD7500F4ABA2 /* asteroids */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B9EB5D81F70DD7500F4ABA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = su;
+				TargetAttributes = {
+					4B9EB5DF1F70DD7500F4ABA2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4B9EB5DB1F70DD7500F4ABA2 /* Build configuration list for PBXProject "asteroids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B9EB5D71F70DD7500F4ABA2;
+			productRefGroup = 4B9EB5E11F70DD7500F4ABA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B9EB5DF1F70DD7500F4ABA2 /* asteroids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B9EB5DC1F70DD7500F4ABA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9C9C131F748EE50010F1D0 /* Asteroids.cpp in Sources */,
+				4B9C9C161F748EE50010F1D0 /* Ship.cpp in Sources */,
+				4B9C9C181F748EE50010F1D0 /* World.cpp in Sources */,
+				4B9C9C141F748EE50010F1D0 /* Game.cpp in Sources */,
+				4B9C9C171F748EE50010F1D0 /* Weapons.cpp in Sources */,
+				4B9C9C151F748EE50010F1D0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B9EB5E51F70DD7500F4ABA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4B9EB5E61F70DD7500F4ABA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4B9EB5E81F70DD7500F4ABA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sfml/2.4.2_1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B9EB5E91F70DD7500F4ABA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sfml/2.4.2_1/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B9EB5DB1F70DD7500F4ABA2 /* Build configuration list for PBXProject "asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9EB5E51F70DD7500F4ABA2 /* Debug */,
+				4B9EB5E61F70DD7500F4ABA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9EB5E71F70DD7500F4ABA2 /* Build configuration list for PBXNativeTarget "asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9EB5E81F70DD7500F4ABA2 /* Debug */,
+				4B9EB5E91F70DD7500F4ABA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B9EB5D81F70DD7500F4ABA2 /* Project object */;
+}
